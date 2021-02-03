@@ -182,7 +182,6 @@ button:focus{
     margin-top: 10px;
     border-top: var(--main-border);
     border-right: var(--main-border);
-    /* background-image: url(subjectbck.png); */
     box-sizing: content-box;
 }
 .txtFrom{
@@ -361,7 +360,6 @@ button:focus{
 }
 @media(max-width: 600px){
     .popup {
-        position: absolute;
         height: 550px;
         width: 90%;
         top:50%;
