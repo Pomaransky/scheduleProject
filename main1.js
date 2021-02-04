@@ -130,10 +130,11 @@ const openPopup = (e) =>{
     $whileEditingSub = document.getElementById(oldSub);
     $popup.style.display = 'flex';
     $popupInfo.textContent = '';
+    checkEnterClick();
 };
 const accBtn = () =>{
     if($popupInputFrom.value === '' || $popupInputTo.value === '' || $popupInput.value === ''){
-        $popupInfo.textContent = 'Uzupełnij wszytkie pola !!!';
+        $popupInfo.textContent = 'Fill in all fields !!!';
     }else{
         $whileEditingSub.children[1].textContent = $popupInputFrom.value;
         $whileEditingSub.children[3].textContent = $popupInputTo.value;
@@ -143,7 +144,16 @@ const accBtn = () =>{
         $popupInputTo.value = '';
         $popupInput.value = '';
     }
-}
+};
+const checkEnterClick = () =>{
+    document.addEventListener("keyup", e => {
+        if(e.key === "Enter"){
+            accBtn();
+        }else if(e.key === "Escape"){
+            closePopup();
+        }
+    });
+};
 const closePopup = () =>{
     $popup.style.display = 'none';
 }
