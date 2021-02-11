@@ -113,7 +113,7 @@ const createSubjectElements = (day) =>{
             subject.classList.add('removing');
             del.classList.add('but--removing');
             edit.removeEventListener('click',openPopup);
-            setTimeout(() => subject.remove(), 480);
+            setTimeout(() => subject.remove(), 485);
         });
         if($subBckImageFlag){
             subject.style.backgroundImage = 'url(subjectbck.png)';
