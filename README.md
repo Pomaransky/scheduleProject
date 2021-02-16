@@ -6,6 +6,7 @@ This is My first Front-End project.
 * [General info about the project](#general-info-about-the-project)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Souruce](#souruce)
 
 ## General info about the project
 
@@ -18,10 +19,12 @@ Project is created with:
 * JavaScript (ES6)
 * HTML5
 * CSS3
-* Fontello (https://fontello.com/)
 	
 ## Setup
 
 To run this project download it and run index.html in browser.
+
+## Souruce
+I am using icon from Fontello(https://fontello.com/)
 
 _All rights reserved © Arkadiusz Pomarański_
