@@ -1,5 +1,6 @@
 # Schedule Project:
 This is My first Front-End project.
+I am aware that I have used CSS variables instead of SCSS or SASS.
 
 ## Table of contents
 
